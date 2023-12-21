@@ -1,0 +1,291 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+  .container {
+    background-color: #8ebbeb;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.header_menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.header_menu li {
+  margin-right: 20px;
+}
+
+.header_menu a {
+  text-decoration: none;
+}
+
+.GioHang-User ul {
+  list-style: none;
+  display: flex;
+}
+
+.GioHang-User li {
+  margin-right: 10px;
+}
+
+.GioHang-User a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Information Section Styling */
+.infor {
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+.infor h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.infor p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Product Category Styling */
+.DanhMucSP {
+  background-color: #706e6f15;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.DanhMucSP h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.MucSPContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.MucSPItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 16%;
+}
+
+.MucSPItem:hover {
+  background-color: #ddd;
+}
+
+.MucSP {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #bb0a0a;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.MucSP img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.MucSP p {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+/* Product Styling */
+.SPtittle {
+  width: auto;
+  height: 10vh;
+  background-color: rgb(216, 214, 214);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+
+/*BESTSELLER*/
+.SPHOT {
+  width: auto;
+  height: 10vh;
+  background-color: rgb(171, 169, 169); 
+  text-align: center;
+  padding-top: 50px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.RainbowText {
+  font-size: 2em;
+  font-weight: bold;
+  background-image: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red);
+  background-clip: text;
+  color: transparent;
+  animation: rainbowAnimation 2s infinite, pulseAnimation 1s infinite alternate;
+}
+/*end BESTSELLER*/
+.SPcontainer {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+
+
+.SPitem:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.SPhcn {
+  margin: 15px;
+  position: relative;
+  text-align: center;
+  max-width: 100vw; /* Thay đổi từ 100% thành 100vw */
+  border: 1px solid #ddd;
+  padding: 20px; /* Thay đổi giá trị padding nếu cần */
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+  box-sizing: border-box; /* Bao gồm độ dày của biên và padding vào chiều rộng */
+}
+
+.SPhcnimg {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.SPtxt {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.SPgia {
+  color: #e44d26;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.SPbutton {
+  padding: 10px;
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.SPbutton:hover {
+  background-color: #2980b9;
+}
+
+/* Footer Styling */
+.footercontainer {
+  background-color: #5156f4;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.contact-content {
+  color: white;
+}
+
+/* Responsive Styling */
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .header_menu ul {
+    flex-direction: column;
+  }
+
+  .GioHang-User ul {
+    flex-direction: column;
+  }
+
+  .MucSPContainer {
+    flex-direction: column;
+  }
+
+  .SPcontainer {
+    flex-direction: column;
+  }
+}
+
+.Logincontainer {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Thêm đổ bóng đậm */
+  width: 300px;
+  height: 350px;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+.header_text_LOGIN {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.grp {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.Logintext {
+  display: inline-block;
+  line-height: 4;
+  width: 500px;
+}
+.loginbutton  {
+  background-color: #d3d923;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover, .loginbutton a:hover {
+  background-color: #45a049;
+}

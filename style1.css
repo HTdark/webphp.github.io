@@ -1,0 +1,217 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+.container {
+  background-color: #8ebbeb;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.header_menu li {
+  margin-right: 20px;
+}
+
+.header_menu a {
+  text-decoration: none;
+}
+
+.GioHang-User ul {
+  list-style: none;
+  display: flex;
+}
+
+.GioHang-User li {
+  margin-right: 10px;
+}
+
+.GioHang-User a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Information Section Styling */
+.infor {
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+.infor h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.infor p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Product Category Styling */
+.DanhMucSP {
+  background-color: #706e6f15;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.DanhMucSP h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.MucSPContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.MucSPItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 16%;
+}
+
+.MucSPItem:hover {
+  background-color: #ddd;
+}
+
+.MucSP {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #bb0a0a;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.MucSP img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.MucSP p {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+/* Product Styling */
+.SPtittle {
+  width: auto;
+  height: 10vh;
+  background-color: rgb(216, 214, 214);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.SPcontainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.SPitem {
+  margin: 15px;
+  text-align: center;
+  width: 250px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+}
+
+.SPitem:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.SPhcn {
+  position: relative;
+}
+
+.SPhcnimg {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.SPtxt {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.SPgia {
+  color: #e44d26;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.SPbutton {
+  padding: 10px;
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.SPbutton:hover {
+  background-color: #2980b9;
+}
+
+/* Footer Styling */
+.footercontainer {
+  background-color: #5156f4;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.contact-content {
+  color: white;
+}
+
+/* Responsive Styling */
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .header_menu ul {
+    flex-direction: column;
+  }
+
+  .GioHang-User ul {
+    flex-direction: column;
+  }
+
+  .MucSPContainer {
+    flex-direction: column;
+  }
+
+  .SPcontainer {
+    flex-direction: column;
+  }
+}

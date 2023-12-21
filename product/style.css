@@ -1,0 +1,245 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+.container {
+  background-color: #8ebbeb;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.header_menu li {
+  margin-right: 20px;
+}
+
+.header_menu a {
+  text-decoration: none;
+}
+
+.GioHang-User ul {
+  list-style: none;
+  display: flex;
+}
+
+.GioHang-User li {
+  margin-right: 10px;
+}
+
+.GioHang-User a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Information Section Styling */
+.infor {
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+.infor h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.infor p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Product Category Styling */
+.DanhMucSP {
+  background-color: #706e6f15;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.DanhMucSP h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Product Styling */
+.SPtittle {
+  width: auto;
+  height: 10vh;
+  background-color: rgb(216, 214, 214);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.SPcontainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.SPitem {
+  margin: 15px;
+  text-align: center;
+  width: 250px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+}
+
+.SPitem:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.SPhcn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SPhcnimg {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.SPtxt {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.SPgia {
+  color: #e44d26;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.SPbutton {
+  padding: 10px;
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.SPbutton:hover {
+  background-color: #2980b9;
+}
+/* Thêm CSS cho phần bộ lọc */
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+select {
+  font-size: 16px;
+  padding: 8px;
+}
+
+input[type="submit"] {
+  font-size: 16px;
+  padding: 8px 15px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+
+/*ttsp*/
+.product-detail-item {
+  display: flex;
+  margin-top: 20px;
+}
+
+.product-detail-image img {
+ 
+  height: 50vh;
+}
+
+.product-detail-info {
+  padding: 20px;
+}
+
+.product-detail-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-detail-info p {
+  margin-bottom: 15px;
+}
+
+/* Footer Styling */
+.footercontainer {
+  background-color: #5156f4;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.contact-content {
+  color: white;
+}
+/* Add these styles to your CSS */
+.buynowbutton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background color */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.buynowbutton:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+
+/*header*/
+.header_menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.header_menu li {
+  margin-right: 20px;
+}
+
+.header_menu a {
+  text-decoration: none;
+}

@@ -1,0 +1,100 @@
+/* cart.css */
+
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.cart-item {
+    border: 1px solid #ddd;
+}
+
+
+.product-image,
+.product-name,
+.product-quantity,
+.product-total,
+.delete-button {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #ddd;
+}
+
+.TTbutton{
+  display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.home-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.TTbutton:hover{
+  background-color: #45a049;
+}
+.home-link:hover {
+    background-color: #45a049;
+}
+
+/*TỔNG THANH TOÁN*/
+.total-value {
+  margin-top: 20px;
+  padding: 15px; /* Tăng padding để làm cho ô chữ to hơn */
+  background-color: #22c179;
+  color: #fff; /* Màu chữ trắng */
+  border-radius: 8px; /* Tăng giá trị để làm cho góc bo tròn hơn */
+  font-weight: bold;
+  font-size: 1.5em; /* Tăng kích thước chữ */
+  text-align: center; /* Căn giữa văn bản */
+}
+
+
+/* Header Styling */
+.container {
+    background-color: #8ebbeb;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.header_menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.header_menu li {
+  margin-right: 20px;
+}
+
+.header_menu a {
+  text-decoration: none;
+}
+
+.GioHang-User ul {
+  list-style: none;
+  display: flex;
+}
+
+.GioHang-User li {
+  margin-right: 10px;
+}
+
+.GioHang-User a {
+  text-decoration: none;
+  color: #333;
+}
