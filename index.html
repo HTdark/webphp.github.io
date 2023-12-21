@@ -1,1 +1,167 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="container">
+        <div class="header_menu">
+            <ul>
+
+                <li><a href="index.php">Trang Chủ</a></li>
+                <li><a href="Trangshop/view/login.php">Best Sellers</a></li>
+                <li><a href="Trangshop/view/login.php">Sản Phẩm</a></li>
+                <li><a href="Trangshop/view/login.php">Dịch Vụ khách hàng</a></li>
+            </ul>
+        </div>
+        <?php
+
+        ?>
+        <div class="GioHang-User">
+            <ul>
+                <li><a href="Trangshop/view/login.php">
+                        <img src="Trangshop/img/giohang.png" alt="GioHang" title="Giỏ Hàng">
+                        <span class="GioHang">Giỏ Hàng</span></a>
+                </li>
+                <li><a href="Trangshop/view/login.php">
+                        <img src="Trangshop/img/user.png" alt="User" title="Người dùng">
+                        <span class="User">Người dùng</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- header -->
+    <!-- Middle: information, danh mục sản phẩm, best seller -->
+    <!-- Infor shop -->
+    <div class="infor">
+    <h1>Thông tin về shop của chúng tôi</h1>
+        <p>Chào mừng bạn đến với cửa hàng của chúng tôi!</p>
+        <p>
+            Tại đây, chúng tôi cam kết mang đến cho bạn những sản phẩm thời trang uy tín nhất,
+            chất lượng cao nhất, được thiết kế đặc biệt để cung cấp cho phong cách sống của bạn.
+        </p>
+        <p>
+            Cảm ơn bạn đã ghé thăm cửa hàng của chúng tôi. Chúng tôi rất mong
+            được phục vụ bạn và giúp  sự phát triển cách sống cá nhân của bạn.
+        </p>
+    </div>
+
+    <!-- Danh mục sản phẩm -->
+
+    <div class="SPtittle">
+        <h1>Danh mục sản phẩm</h1>
+    </div>
+    <div class="DanhMucSP">
+        <div class="MucSPContainer">
+            <!-- Repeat this block for each product category -->
+            <div class="MucSPItem">
+                <div class="MucSP">
+                    <img src="Trangshop/img/HinhAnh/hinh ao/hinh1.jpg" alt="Product Image">
+                </div>
+                <p style="text-align: center;">Chăm sóc sức khỏe</p>
+            </div>
+            <div class="MucSPItem">
+                <div class="MucSP">
+                    <img src="Trangshop/img/HinhAnh/hinh ao/hinh1.jpg" alt="Product Image">
+                </div>
+                <p style="text-align: center;">Chăm sóc sức khỏe</p>
+            </div>
+            <div class="MucSPItem">
+                <div class="MucSP">
+                    <img src="Trangshop/img/HinhAnh/hinh ao/hinh1.jpg" alt="Product Image">
+                </div>
+                <p style="text-align: center;">Chăm sóc sức khỏe</p>
+            </div>
+            <div class="MucSPItem">
+                <div class="MucSP">
+                    <img src="Trangshop/img/HinhAnh/hinh ao/hinh1.jpg" alt="Product Image">
+                </div>
+                <p style="text-align: center;">Chăm sóc sức khỏe</p>
+            </div>
+            <div class="MucSPItem">
+                <div class="MucSP">
+                    <img src="Trangshop/img/HinhAnh/hinh ao/hinh1.jpg" alt="Product Image">
+                </div>
+                <p style="text-align: center;">Chăm sóc sức khỏe</p>
+            </div>
+            <!-- End of block -->
+        </div>
+    </div>
+
+    <div class="SPtittle">
+        <h1>SẢN PHẨM ĐANG HOT</h1>
+    </div>
+
+    <!-- Repeat this block for each product -->
+    <div class="SPcontainer">
+        <form method="post" action="Trangshop/view/login.php">
+            <div class="SPitem">
+                <div class="SPhcn">
+                    <img src="Trangshop/img/HinhAnh/hinh ao/hinh1.jpg" alt="Product Image" class="SPhcnimg">
+                    <h2 class="SPtxt">Áo Thun</h2>
+                    <p class="SPgia">100.000đ</p>
+                    <input type="submit" name="addtocart" value="Thêm vào giỏ hàng">
+                </div>
+        </form>
+
+    </div>
+    <div class="SPitem">
+        <form method="post" action="Trangshop/view/login.php">
+            <div class="SPhcn">
+                <img src="Trangshop/img/HinhAnh/hinh ao/hinh1.jpg" alt="Product Image" class="SPhcnimg">
+                <h2 class="SPtxt">Áo Thun</h2>
+                <p class="SPgia">100.000đ</p>
+                <input type="submit" name="addtocart" value="Thêm vào giỏ hàng">
+            </div>
+        </form>
+    </div>
+    <div class="SPitem">
+        <form method="post" action="Trangshop/view/login.php">
+            <div class="SPhcn">
+                <img src="Trangshop/img/HinhAnh/hinh ao/hinh1.jpg" alt="Product Image" class="SPhcnimg">
+                <h2 class="SPtxt">Áo Thun</h2>
+                <p class="SPgia">100.000đ</p>
+                <input type="submit" name="addtocart" value="Thêm vào giỏ hàng">
+            </div>
+        </form>
+    </div>
+
+    <div class="SPitem">
+        <form method="post" action="Trangshop/view/login.php">
+            <div class="SPhcn">
+                <img src="Trangshop/img/HinhAnh/hinh ao/hinh1.jpg" alt="Product Image" class="SPhcnimg">
+                <h2 class="SPtxt">Áo Thun</h2>
+                <p class="SPgia">100.000đ</p>
+                <input type="submit" name="addtocart" value="Thêm vào giỏ hàng">
+            </div>
+        </form>
+    </div>
+    <div class="SPitem">
+        <form method="post" action="Trangshop/view/login.php">
+            <div class="SPhcn">
+                <img src="Trangshop/img/HinhAnh/hinh ao/hinh1.jpg" alt="Product Image" class="SPhcnimg">
+                <h2 class="SPtxt">Áo Thun</h2>
+                <p class="SPgia">100.000đ</p>
+                <input type="submit" name="addtocart" value="Thêm vào giỏ hàng">
+            </div>
+        </form>
+    </div>
+    </div>
+    <!-- End of block -->
+    <!--footer-->
+    <div class='footercontainer'>
+        <div class='contact-content'>
+            <h1>Liên Hệ Chúng Tôi</h1>
+            <p>Page FB:..........</p>
+            <p>Địa chỉ: Quận 8</p>
+            <p>Điện thoại: 0123 456 789</p>
+            <p>Email: example@example.com</p>
+</body>
+
+</html>
